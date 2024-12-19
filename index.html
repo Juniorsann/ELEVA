@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prova sobre Metodologias Ágeis</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Logo da Empresa">
+    </div>
+    <h1>Prova sobre Metodologias Ágeis</h1>
+  </header>
+
+  <main>
+    <section class="quiz-section">
+      <form id="quizForm">
+        <!-- Pergunta 1 -->
+        <div class="question">
+          <p>1. O que você entende por Scrum?</p>
+          <textarea name="q1" rows="4" cols="50" placeholder="Digite sua resposta aqui..."></textarea>
+        </div>
+
+        <!-- Pergunta 2 -->
+        <div class="question">
+          <p>2. Qual é a importância das retrospectivas em metodologias ágeis?</p>
+          <textarea name="q2" rows="4" cols="50" placeholder="Digite sua resposta aqui..."></textarea>
+        </div>
+
+        <button type="button" class="submit-btn" onclick="corrigirProva()">Corrigir Prova</button>
+      </form>
+      <div id="resultado" class="feedback"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Desenvolvido por Gente&Cultura &copy; 2024</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
